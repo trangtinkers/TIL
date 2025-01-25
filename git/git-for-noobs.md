@@ -10,6 +10,6 @@ git push
 ```
 ## common errors:
 
-Git merge error "commit is not possible because you have unmerged files"
-error: failed to push some refs to 
+- Git merge error "commit is not possible because you have unmerged files"
+- error: failed to push some refs to 
 
