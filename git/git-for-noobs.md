@@ -8,7 +8,8 @@ git add
 git commit
 git push
 ```
-common errors:
+## common errors:
+
 Git merge error "commit is not possible because you have unmerged files"
 error: failed to push some refs to 
 
