@@ -1,5 +1,4 @@
-use context starter2024
-include tables
+use context dcic2024
 
 ancestors = table: name, birthyear, eyecolor, female-parent, male-parent
   row: "Anna", 1997, "blue", "Susan", "Charlie"
