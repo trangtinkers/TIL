@@ -1,4 +1,4 @@
-#lang racket
+#lang racket  
 
 (struct student (name id# dorm))
 
