@@ -1,8 +1,8 @@
 #lang racket
 
- (struct student (name id# dorm))
+ (struct city (name long lat))
 
- (struct cities (name long lat))
+ (define cities)
 
  (define neighbors (city)
     "Find all cities within 1000 kilometers."
