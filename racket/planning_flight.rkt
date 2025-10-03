@@ -1,8 +1,9 @@
 #lang racket
 
- (struct student (name id# dorm))
+ (struct city (name long lat))
 
- (struct cities (name long lat))
+ (define cities 
+        (Atlanta 84.23 33.45))
 
  (define neighbors (city)
     "Find all cities within 1000 kilometers."
@@ -15,3 +16,9 @@
     "Find the city with this name."
     (assoc name *cities*))
 
+;; calculating air-distance
+
+(define (air-distance city1 city2)
+        ...)
+(define (distance point1 point2)
+        ...)
